@@ -12,3 +12,5 @@ def longest_value(dic):
             word_count = len(dic[i])
             longest_word = dic[i]
     return longest_word
+
+print(longest_value(fruits))
